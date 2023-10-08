@@ -7,4 +7,12 @@ When operating reliably, the National Oceanic and Atmospheric Administration’s
 
 Here we develop probabilistc machine learning models to forecast planetary K-index, and also use clustering to clean data.
 
-[1]: https://www.spaceappschallenge.org/2023/challenges/develop-the-oracle-of-dscovr/?tab=details
+## How you can explore the models:
+
+CLone the project. First, you will need to have ```poetry``` installed on your device. Then, from the project directory:
+
+  poetry install
+
+Now you will have an environment with all dependencies installed.
+
+(1): https://www.spaceappschallenge.org/2023/challenges/develop-the-oracle-of-dscovr/?tab=details
