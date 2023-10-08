@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dscovr-nasaspaceapps23"
+version = "0.1.0"
+description = "NASA Space Apps Challenge 23 - Gaussian Processes for geomagnetic storm prediction."
+authors = ["Burhan Anis <burhanuddin.m.anis@gmail.com>"]
+readme = "README.md"
+packages = [{include = "dscovr_nasaspaceapps23"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.12"
+tensorflow = "^2.14.0"
+tensorflow-probability = "^0.22.0"
+pandas = "^2.1.1"
+
+[tool.poetry.group.dev.dependencies]
+numpy = "^1.26.0"
+matplotlib = "^3.7.0"
+sklearn = "^0.0.post9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
