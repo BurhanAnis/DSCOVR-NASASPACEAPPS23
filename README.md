@@ -11,7 +11,7 @@ Here we develop probabilistc machine learning models to forecast planetary K-ind
 
 CLone the project. First, you will need to have ```poetry``` installed on your device. Then, from the project directory:
 
-  poetry install
+  ```poetry install```
 
 Now you will have an environment with all dependencies installed.
 
